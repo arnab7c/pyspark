@@ -1,0 +1,10 @@
+Mathematics Game or Binary Game
+1. Start of the game, user will choose to play math or binary game
+2. Prompt to enter the number of question they want for the round (between 1 & 10)
+3. Math game will test BODMAS rule of calculation
+4. binary game will convert a base number to a binary number
+5. In both cases, game will set questions randomle to players
+6. In wrong answer, game will show correct number and proceed to next question
+7. In wright answer, game will update score and proceed to next question
+8. Game will keep track of score and write the score in external file
+9. After each round player can press "-1" to terminate or enter to start new round.
