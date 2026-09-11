@@ -1,0 +1,10 @@
+app:
+  name: PySpark
+  seed: 43
+
+paths:
+  base_dir: "/Users/papai/PycharmProjects/pyspark/"
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  index_dir: "data/index"
+  log_dir: "data/log"

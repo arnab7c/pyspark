@@ -53,7 +53,7 @@ df_genre = df_movie_cleaned.select("genre").distinct().orderBy("genre")
 df_filtered_movie = (
     df_movie_cleaned
     .select("movieId","title", "year", "genre")
-    .filter( (df_movie_cleaned.year == 1995) & (lower(df_movie_cleaned.genre) == "thriller"))
+    .filter( (df_movie_cleaned.year == 1992) & (lower(df_movie_cleaned.genre) == "thriller"))
     )
 
 # Average rating of the movie
